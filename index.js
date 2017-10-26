@@ -12,6 +12,7 @@ function deepestChild() {
   findDeepestChild(currentNode, 0, currentNode, 0)
 
 }
+
  function findDeepestChild(node, depth, deepestNode, deepestDepth)
  {
    console.log(`current node: #{node}`)
@@ -36,5 +37,7 @@ function deepestChild() {
 
 
  }
+document = index.html
+
 
 deepestChild()
