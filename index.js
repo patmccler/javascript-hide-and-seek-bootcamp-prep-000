@@ -37,7 +37,7 @@ function deepestChild() {
 
 
  }
-document = index.html
+document = 'index.html'
 
 
 deepestChild()
