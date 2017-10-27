@@ -37,6 +37,7 @@ function deepestChild() {
 
 
  }
+const jsdom = require('jsdom');
  const path = require('path');
 const html = path.resolve(__dirname, '..', 'index.html')
 jsdom.env(html, [], { src: babelResult.code }, (err, window) => {
