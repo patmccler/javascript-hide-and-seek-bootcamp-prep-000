@@ -8,13 +8,19 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  var currentNode =  document.querySelector('div #grand-node')
+  var currentNode =  document.querySelector('#grand-node')
   var deepest = findDeepestChild(currentNode, 0, {depthV:0})
   return deepest
 }
 
  function findDeepestChild(node, depth, deepestNodeAndDepth)
  {
+if(node === null)
+  {
+
+    adfl;kasjd;flaskjdf
+  }
+   
    //console.log(`current node: #{node}`)
    depth++
    var child = node.firstElementChild
