@@ -43,6 +43,7 @@ function deepestChild() {
    var thisElem
    for(let i = 0; i < elemsToIncrease.length; i++)
    {
+     thisElem = elemsToIncrease[i]
      thisElem.innerHTML = parseInt(thisElem.innerHTML) + n
 
    }
