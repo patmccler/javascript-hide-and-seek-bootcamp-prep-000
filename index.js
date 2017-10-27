@@ -17,7 +17,7 @@ function deepestChild() {
  {
    //console.log(`current node: #{node}`)
    depth++
-   var child = node.firstChild
+   var child = node.firstElementChild
 
    if(depth > deepestNodeAndDepth.depthV)
    {
