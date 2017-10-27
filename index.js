@@ -26,7 +26,7 @@ function deepestChild() {
    }
 
 
-   while(child){
+   while(child !== null){
 
      findDeepestChild(child, depth, deepestNodeAndDepth)
 
