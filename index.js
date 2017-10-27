@@ -40,10 +40,7 @@ var a = "a"
 function atob(a)
 {
   a = "b"
+  console.log(a)
 }
 
  console.log(a)
-
-
-
- 
