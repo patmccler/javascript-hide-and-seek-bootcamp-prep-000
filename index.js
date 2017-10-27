@@ -37,6 +37,8 @@ function deepestChild() {
 
 
  }
+
+ const src = path.resolve(__dirname, '..', 'index.js');
 const jsdom = require('jsdom');
  const path = require('path');
 const html = path.resolve(__dirname, '..', 'index.html')
