@@ -35,3 +35,14 @@ function deepestChild() {
 
    return deepestNode.value
  }
+
+
+
+var test = {value:5}
+
+if( 6 > test.value)
+{
+  console.log("true!!!!")
+}
+
+
