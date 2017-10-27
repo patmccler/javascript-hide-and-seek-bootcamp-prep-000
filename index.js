@@ -36,10 +36,10 @@ function deepestChild() {
    return deepestNode
  }
 
-var a = "a"
+var a = {value:"1"}
 function atob(a)
 {
-  a = "b"
+  a.value = 2
   console.log(a)
 }
 
