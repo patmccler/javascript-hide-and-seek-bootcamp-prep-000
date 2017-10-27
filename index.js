@@ -35,4 +35,3 @@ function deepestChild() {
 
    return deepestNode
  }
-
