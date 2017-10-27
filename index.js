@@ -33,13 +33,20 @@ function deepestChild() {
        findDeepestChild(children[i], depth, deepestNodeAndDepth)
      }
    }
-   /*
-   while(child !== null){
-
-     findDeepestChild(child, depth, deepestNodeAndDepth)
-
-     child = child.nextSibling
-   }
-*/
+   
    return deepestNodeAndDepth.node
+ }
+
+ function increaseRankBy(n)
+ {
+   var elemsToIncrease = document.querySelectorAll('.ranked-list li')
+   var thisElem
+   for(let i = 0; i < elemsToIncrease.length, i++)
+   {
+     thisElem.innerHTML = parseInt(thisElem.innerHTML) + 2
+     
+   }
+
+
+   
  }
