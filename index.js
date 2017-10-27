@@ -44,3 +44,5 @@ function atob(a)
 }
 
  console.log(a)
+atob(a)
+console.log(a)
