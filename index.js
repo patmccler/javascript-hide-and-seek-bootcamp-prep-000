@@ -24,10 +24,14 @@ function deepestChild() {
      deepestNodeAndDepth.node = node
    }
 
-   var count = node.childElementCount
-   if(node.childElementCount > 0)
+   var childCount = node.childElementCount
+   if(childCount > 0)
    {
-     
+     var children = node.children
+     for(let i = 0; i < childCount; i++)
+     {
+       findDeepestChild(children[i])
+     }
    }
    /*
    while(child !== null){
