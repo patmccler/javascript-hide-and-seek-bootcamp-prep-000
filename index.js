@@ -30,7 +30,7 @@ function deepestChild() {
      var children = node.children
      for(let i = 0; i < childCount; i++)
      {
-       findDeepestChild(children[i])
+       findDeepestChild(children[i], depth, deepestNodeAndDepth)
      }
    }
    /*
