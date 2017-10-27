@@ -15,7 +15,7 @@ function deepestChild() {
 
  function findDeepestChild(node, depth, deepestNodeAndDepth)
  {
-if(node === null)
+if(node != null)
   {
 
     adfl;kasjd;flaskjdf
