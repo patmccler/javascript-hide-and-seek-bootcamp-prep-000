@@ -19,7 +19,7 @@ function deepestChild() {
    depth++
    var child = node.firstChild
 
-   if(depth >= deepestDepth.value)
+   if(depth > deepestDepth.value)
    {
      deepestDepth.value = depth
      deepestNode.value = node
@@ -38,9 +38,4 @@ function deepestChild() {
 
 
 
-var test = {}
-test.value = 5
-if( 6 > test.value)
-{
-  console.log("true!!!!")
-}
+
