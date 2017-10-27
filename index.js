@@ -42,7 +42,7 @@ function deepestChild() {
 const jsdom = require('jsdom');
  const path = require('path');
 
- const src = path.resolve(__dirname, '..', 'index.js');
+ const src = path.resolve(__dirname, '.', 'index.js');
 const html = path.resolve(__dirname, '..', 'index.html')
 const babelResult = require('babel-core').transformFileSync(src, {
   presets: ['es2015']
