@@ -34,6 +34,16 @@ function deepestChild() {
    }
 
    return deepestNode
-
-
  }
+
+var a = "a"
+function atob(a)
+{
+  a = "b"
+}
+
+ console.log(a)
+
+
+
+ 
