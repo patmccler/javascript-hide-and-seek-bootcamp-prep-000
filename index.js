@@ -28,7 +28,7 @@ function deepestChild() {
 
    while(child !== null){
 
-     findDeepestChild(child, depth, deepestNode, deepestDepth)
+     findDeepestChild(child, depth, deepestNodeAndDepth)
 
      child = child.nextSibling
    }
