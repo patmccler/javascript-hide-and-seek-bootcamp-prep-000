@@ -20,7 +20,7 @@ if(node === null)
 
     adfl;kasjd;flaskjdf
   }
-   
+
    //console.log(`current node: #{node}`)
    depth++
    var child = node.firstElementChild
