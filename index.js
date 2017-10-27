@@ -15,15 +15,8 @@ function deepestChild() {
 
  function findDeepestChild(node, depth, deepestNodeAndDepth)
  {
-if(node != null)
-  {
-
-    adfl;kasjd;flaskjdf
-  }
-
    //console.log(`current node: #{node}`)
    depth++
-   var child = node.firstElementChild
 
    if(depth > deepestNodeAndDepth.depthV)
    {
@@ -31,13 +24,18 @@ if(node != null)
      deepestNodeAndDepth.node = node
    }
 
-
+   var count = node.childElementCount
+   if(node.childElementCount > 0)
+   {
+     
+   }
+   /*
    while(child !== null){
 
      findDeepestChild(child, depth, deepestNodeAndDepth)
 
      child = child.nextSibling
    }
-
+*/
    return deepestNodeAndDepth.node
  }
