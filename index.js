@@ -41,7 +41,7 @@ function deepestChild() {
  {
    var elemsToIncrease = document.querySelectorAll('.ranked-list li')
    var thisElem
-   for(let i = 0; i < elemsToIncrease.length, i++)
+   for(let i = 0; i < elemsToIncrease.length; i++)
    {
      thisElem.innerHTML = parseInt(thisElem.innerHTML) + n
 
