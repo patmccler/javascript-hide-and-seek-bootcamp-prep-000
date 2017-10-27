@@ -19,7 +19,7 @@ function deepestChild() {
    depth++
    var child = node.firstChild
 
-   if(depth >= deepestDepth[value])
+   if(depth >= deepestDepth['value'])
    {
      deepestDepth['value'] = depth
      deepestNode = node
