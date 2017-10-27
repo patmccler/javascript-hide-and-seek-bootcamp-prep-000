@@ -45,4 +45,5 @@ function atob(a)
 
  console.log(a)
 atob(a)
+a.value = 3
 console.log(a)
