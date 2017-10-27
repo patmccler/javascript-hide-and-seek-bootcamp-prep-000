@@ -33,5 +33,5 @@ function deepestChild() {
      child = child.nextSibling
    }
 
-   return deepestNode.value
+   return deepestNodeandDepth.node
  }
