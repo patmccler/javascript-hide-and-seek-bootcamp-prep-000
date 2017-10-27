@@ -9,17 +9,17 @@ function nestedTarget() {
 
 function deepestChild() {
   var currentNode =  document.querySelector('#grand-node')
-  findDeepestChild(currentNode, 0, {}, {value:0})
+  findDeepestChild(currentNode, 0, {depthV:0})
 
 }
 
- function findDeepestChild(node, depth, deepestNode, deepestDepth)
+ function findDeepestChild(node, depth, deepestNodeAndDepth)
  {
    //console.log(`current node: #{node}`)
    depth++
    var child = node.firstChild
 
-   if(depth > deepestDepth.value)
+   if(depth > deepestNodeAndDepth.depthV)
    {
      deepestDepth.value = depth
      deepestNode.value = node
@@ -35,7 +35,3 @@ function deepestChild() {
 
    return deepestNode.value
  }
-
-
-
-
