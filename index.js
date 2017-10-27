@@ -9,7 +9,7 @@ function nestedTarget() {
 
 function deepestChild() {
   var currentNode =  document.querySelector('div#grand-node')
-  findDeepestChild(currentNode, 0, currentNode, 0)
+  findDeepestChild(currentNode, 0, currentNode, {'value':0})
 
 }
 
@@ -39,24 +39,3 @@ function deepestChild() {
  }
 
 
-const jsdom = require('jsdom');
- const path = require('path');
-
- const src = path.resolve(__dirname, '.', 'index.js');
-const html = path.resolve(__dirname, '.', 'index.html')
-const babelResult = require('babel-core').transformFileSync(src, {
-  presets: ['es2015']
-});
-jsdom.env(html, [], { src: babelResult.code }, (err, window) => {
-  if (err) {
-    return done(err);
-  }
-
-  Object.keys(window).forEach(key => {
-    global[key] = window[key];
-  });
-
-  return done();
-});
-
-deepestChild()
