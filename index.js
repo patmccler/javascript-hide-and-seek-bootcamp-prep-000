@@ -38,11 +38,9 @@ function deepestChild() {
 
 
 
-var test = {value:5}
-
+var test = {}
+test.value = 5
 if( 6 > test.value)
 {
   console.log("true!!!!")
 }
-
-
