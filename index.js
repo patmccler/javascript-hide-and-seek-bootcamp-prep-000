@@ -21,8 +21,8 @@ function deepestChild() {
 
    if(depth > deepestNodeAndDepth.depthV)
    {
-     deepestDepth.value = depth
-     deepestNode.value = node
+     deepestNodeAndDepth.depthV = depth
+     deepestNodeAndDepth.node = node
    }
 
 
